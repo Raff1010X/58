@@ -1,4 +1,4 @@
-# Hover over card 4
+# Hover over card 4 times to see the animation
 
 ## Animated card
 
