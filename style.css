@@ -127,7 +127,7 @@ body {
 
 @media (min-width: 1201px) {
     #figure {
-        background-image: url("images/figure-lg.webp");
+        background-image: var(--figureImageLg);
     }
     #front {
         background-image: url("images/front-lg.webp");
@@ -141,7 +141,7 @@ body {
 }
 @media (max-width: 1200px) {
     #figure {
-        background-image: url("images/figure-sm.webp");
+        background-image: var(--figureImageSm);
     }
     #front {
         background-image: url("images/front-sm.webp");
