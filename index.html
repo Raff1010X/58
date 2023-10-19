@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -19,17 +20,5 @@
         </div>
     </div>
 </body>
-
-<script>
-    function randomImage() {
-        const imagesLg = ["images/figure0-lg.webp", "images/figure1-lg.webp", "images/figure2-lg.webp"];
-        const imagesSm = ["images/figure0-lg.webp", "images/figure1-lg.webp", "images/figure2-lg.webp"];
-        let randomIndex = Math.floor(Math.random() * imagesLg.length);
-        const figureImageLg = imagesLg[randomIndex];
-        const figureImageSm = imagesSm[randomIndex];
-        document.documentElement.setAttribute("style", `--figureImageSm: url(${figureImageSm}); --figureImageLg: url(${figureImageLg});`);
-    }
-    randomImage();
-</script>
 
 </html>
